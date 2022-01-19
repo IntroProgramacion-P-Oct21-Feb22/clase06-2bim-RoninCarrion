@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquetedos;
+package Paquete03;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class DatoPersonal {
 
     public static String obtenerNombre(){
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese nombre de persona");
+        System.out.println("Ingrese nombre de persona: ");
         String nombrePersona = entrada.nextLine();
         
         return nombrePersona;
@@ -23,7 +23,7 @@ public class DatoPersonal {
     
     public static String obtenerApellido(){
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese apellido de persona");
+        System.out.println("Ingrese apellido de persona: ");
         String apellidoP = entrada.nextLine();
         
         return apellidoP;
